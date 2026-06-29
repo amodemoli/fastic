@@ -81,7 +81,7 @@ For more advanced examples (group routing, custom middlewares, static file servi
 ## Documentation
 
 Full documentation is available at:  
-[docs/start.md](https://github.com/amodemoli/fastic/docs/start.md)
+[docs/start.md](https://github.com/amodemoli/fastic/blob/main/docs/start.md)
 
 It covers:
 
