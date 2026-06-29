@@ -28,6 +28,7 @@ These numbers are based on standard hello-world and JSON serialization benchmark
 
 Here is a minimal example to get you started:
 
+```go
     package main
 
     import (
@@ -57,6 +58,7 @@ Here is a minimal example to get you started:
         // Start the server
         app.Run(handler)
     }
+```
 
 For more advanced examples (group routing, custom middlewares, static file serving, etc.), please refer to the official documentation.
 
@@ -79,7 +81,7 @@ For more advanced examples (group routing, custom middlewares, static file servi
 ## Documentation
 
 Full documentation is available at:  
-github.com/amodemoli/doc/blob/start.md
+[docs/start.md](github.com/amodemoli/docs/start.md)
 
 It covers:
 
