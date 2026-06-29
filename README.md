@@ -96,9 +96,9 @@ It covers:
 
 Fastic is developed and maintained by Demolition, 15y/o golang developer.
 
-- Discord: discord.gg/uRDfzNFAnM
-- GitHub: github.com/amodemoli
-- Telegeram: t.me/amodemoli
+- Discord: [discord.gg/uRDfzNFAnM](https://discord.gg/uRDfzNFAnM)
+- GitHub: [github.com/amodemoli](https://github.com/amodemoli)
+- Telegeram: [t.me/amodemoli](https://t.me/amodemoli)
 
 ---
 
