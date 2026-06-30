@@ -140,3 +140,8 @@ func (a *App) Static(prefix, root string) {
 func (a *App) Print(clr, model, message string) {
 	fmt.Printf("    %s∎%s %s: %s\n", clr, color.Nc, model, message) // send a message on terminal.
 }
+
+// printb method, this method get's byte.
+func (a *App) PrintB(clr, model string, message []byte) {
+	fmt.Printf("    %s∎%s %s: %v\n", clr, color.Nc, model, message) // send a message on terminal.
+}

@@ -3,7 +3,7 @@
 > ▲ **STEP.1: INSTALL & RUN THE SERVER**
 > ⟶ [fastic/docs/s1.md](https://github.com/amodemoli/fastic/blob/main/docs/s1.md)
 
-> ▲ **STEP.2: FIRST "GET" METHOD, WITH RESPONSE**
+> ▲ **STEP.2: ENV FILE AND SETTINGS**
 > ⟶ [fastic/docs/s2.md](https://github.com/amodemoli/fastic/blob/main/docs/s2.md)
 
 > ▲ **STEP.3: WRITE RESPONSE AS JSON, TO USER**
@@ -14,3 +14,5 @@
 
 > ▲ **STEP.5: CREATE YOUR CUSTOM MIDDLEWARE**
 > ⟶ [fastic/docs/s5.md](https://github.com/amodemoli/fastic/blob/main/docs/s5.md)
+
+❖ the documention is not ended, fastic framework is on ``BETA`` version. if you dont see your future on fastic you can use ``app.Router.`` this method is for default fasthttp router settings. this framework maded for **Senior** developers. if are you starting the website developing on golang don't try fastic.
