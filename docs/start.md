@@ -15,4 +15,7 @@
 > ▲ **STEP.5: CREATE YOUR CUSTOM MIDDLEWARE**
 > ⟶ [fastic/docs/s5.md](https://github.com/amodemoli/fastic/blob/main/docs/s5.md)
 
-❖ the documention is not ended, fastic framework is on ``BETA`` version. if you dont see your future on fastic you can use ``app.Router.`` this method is for default fasthttp router settings. this framework maded for **Senior** developers. if are you starting the website developing on golang don't try fastic.
+> ▲ **STEP.5: SERV FRONTEND FILES (HTML,CSS,JS)**
+> ⟶ [fastic/docs/s6.md](https://github.com/amodemoli/fastic/blob/main/docs/s6.md)
+
+❖ the documention is not ended, fastic framework is on `BETA` version. if you dont see your future on fastic you can use `app.Router.` this method is for default fasthttp router settings. this framework maded for **Senior** developers. if are you starting the website developing on golang don't try fastic.
