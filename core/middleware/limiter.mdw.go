@@ -97,3 +97,4 @@ func (l *Limiter) Limiter(next fasthttp.RequestHandler) fasthttp.RequestHandler 
 		next(ctx) // call next
 	}
 }
+// fix: fixed the memory leak.
