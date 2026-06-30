@@ -25,7 +25,6 @@ type App struct {
 
 // this function maded for create new application model =D
 func New() *App {
-	godotenv.Load()
 	r := router.New()
 	return &App{
 		Router:  r,         // save created router
