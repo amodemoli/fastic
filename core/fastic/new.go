@@ -7,7 +7,6 @@ import (
 
 	"github.com/amodemoli/fastic/core/color"
 	"github.com/fasthttp/router"
-	"github.com/joho/godotenv"
 	"github.com/valyala/fasthttp"
 )
 
