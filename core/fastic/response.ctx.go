@@ -1,5 +1,11 @@
 package fastic
 
+import (
+	"fmt"
+	"os"
+	"path/filepath"
+)
+
 // this method maded for show your message as text/plain model,
 // if your website content type is application/json this method changes to text/plain and show's raw message on website.
 func (c *Ctx) String(s string) {
@@ -15,7 +21,12 @@ func (c *Ctx) Status(status int) *Ctx {
 
 // Attachment method, you can add your file path for download. if user enter to this addres your uploaded
 // file path starting to download.
-func (c *Ctx) Attachment(path, filename string) {
-	c.Response.Header.Set("Content-Disposition", "attachment; filename="+filename) // change response header
-	c.SendFile(path) // send file.
+func (c *Ctx) Attachment(path string) error {
+	if _, err := os.Stat(path); err != nil { // if cannot find the file
+		return fmt.Errorf("error on read file: %w", err)
+	}
+	c.Response.Header.Set("Content-Disposition", "attachment; filename="+filepath.Base(path)) // change response header
+	c.SendFile(path)                                                                          // send file.
+
+	return nil
 }
