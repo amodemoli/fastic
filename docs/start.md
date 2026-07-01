@@ -21,7 +21,7 @@
 > ▲ **STEP.7: CONNECT FRONTEND TO BACKEND WITH RESTFULL API**
 > ⟶ [fastic/docs/s7.md](https://github.com/amodemoli/fastic/blob/main/docs/s7.md)
 
-> ▲ **STEP.7: ATTACHMENT FILES TO USER BROWSER FOR DOWNLOAD**
+> ▲ **STEP.8: ATTACHMENT FILES TO USER BROWSER FOR DOWNLOAD**
 > ⟶ [fastic/docs/s7.md](https://github.com/amodemoli/fastic/blob/main/docs/s8.md)
 
 ❖ the documention is not ended, fastic framework is on `BETA` version. if you dont see your future on fastic you can use `app.Router.` this method is for default fasthttp router settings.
